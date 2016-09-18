@@ -1,2 +1,9 @@
 ---
-lucky-word : "Irish", "Rabbit's Foot", "Serendipity"
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rahulsingh336/ConfigData
+server:
+  port: 8001
